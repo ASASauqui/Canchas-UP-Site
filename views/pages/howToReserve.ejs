@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Head -->
+    <%- include('./head'); %>
+
+    <!-- Titulo -->
+    <title>¿Cómo reservar?</title>
+
+    <!-- CSS utilizado solo para Como Reservar -->
+    <link rel="stylesheet" href="/views/css/how_to_reserve.css" type="text/css">
+    <link rel="stylesheet" href="/views/css/loader.css">
+    
+
+</head>
+<body>
+    <!-- Preloader  -->
+	<div class="loader_bg">
+		<div class="loader"><img src="/views/assets/Home/Loader04.gif" alt="#"/></div>
+	 </div>
+  	<!-- end Preloader -->
+
+    <!-- Navbar -->
+    <header>
+        <%- include('./navbar'); %>
+    </header>
+
+    
+    <!-- ComoReservar Inicio -->
+    <section style="margin-top: 2vw;">
+        
+        <div class="bdy">
+
+            <div class="card mb-5" style="width: 30vw;">
+                <div class="card-header">
+                    <h2 class="titulo">1</h2>
+                </div>
+                <div class="square" style="background-image: url('/views/assets/How_To_Reserve/Step1.png');" id="1"></div>
+                <div class="card-body">
+                  <p class="card-text">Selecciona Inicar Sesion en la barra de navegación.</p>
+                </div>
+            </div>
+
+            <div class="card mb-5" style="width: 30vw;">
+                <div class="card-header">
+                    <h2 class="titulo">2</h2>
+                </div>
+                <div class="square" style="background-image: url('/views/assets/How_To_Reserve/Step2.png');" id="2"></div>
+                <div class="card-body">
+                  <p class="card-text">Inicia sesion con tu correo de la UP (sólo así podras acceder).</p>
+                </div>
+            </div>
+
+            <div class="card mb-5" style="width: 30vw;">
+                <div class="card-header">
+                    <h2 class="titulo">3</h2>
+                </div>
+                <div class="square" style="background-image: url('/views/assets/How_To_Reserve/Step3.png');" id="3"></div>
+                <div class="card-body">
+                  <p class="card-text">Selecciona la cancha que quieres reservar.</p>
+                </div>
+            </div>
+
+            <div class="card mb-5" style="width: 30vw;">
+                <div class="card-header">
+                    <h2 class="titulo">4</h2>
+                </div>
+                <div class="square" style="background-image: url('/views/assets/How_To_Reserve/Step4.png');" id="4"></div>
+                <div class="card-body">
+                  <p class="card-text">Revisa los horarios disponibles en el calendario.</p>
+                </div>
+            </div>
+
+            <div class="card mb-5" style="width: 30vw;">
+                <div class="card-header">
+                    <h2 class="titulo">5</h2>
+                </div>
+                <div class="square" style="background-image: url('/views/assets/How_To_Reserve/Step5.png');" id="5"></div>
+                <div class="card-body">
+                  <p class="card-text">Llena los campos y envia tu solicitud.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <center>
+           <div class="mb-5">
+               <a href="/"  style="text-decoration: none;"> 
+                    <div class="reservar" id="btn">Reservar</div>
+                </a>
+            </div>
+        </center>
+    </section>
+    <!-- ComoReservar Final -->
+
+
+    <!-- Footer -->
+    <footer>
+        <%- include('./footer'); %>
+    </footer>
+
+    <script src="/views/js/howToReserve.js"></script>
+    <script src="/views/js/home_jquery.min.js"></script>
+	<script src="/views/js/loader_functions.js"></script>
+
+</body>
+</html>
